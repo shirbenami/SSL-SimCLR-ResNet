@@ -6,19 +6,19 @@ This repository contains a deep learning project focused on implementing SimCLR 
 This project explores self-supervised learning techniques using SimCLR and evaluates its impact on classification performance when fine-tuned on a labeled dataset. The key steps include:
 
 #### 1. Self-Supervised Pretraining (SimCLR):
--Pretrained ResNet50 on the STL10 dataset's unlabeled images.
--Optimized using the InfoNCE loss function to learn useful feature representations.
+* Pretrained ResNet50 on the STL10 dataset's unlabeled images.
+* Optimized using the InfoNCE loss function to learn useful feature representations.
 
 #### 2. Fine-Tuning:
--Fine-tuned the pretrained ResNet50 on the STL10 dataset's labeled training set.
--Evaluated on the validation and test sets.
+* Fine-tuned the pretrained ResNet50 on the STL10 dataset's labeled training set.
+* Evaluated on the validation and test sets.
 
 #### 3. Supervised Training Baseline:
--Trained ResNet50 from scratch on the STL10 labeled dataset as a baseline for comparison.
+* Trained ResNet50 from scratch on the STL10 labeled dataset as a baseline for comparison.
 
 #### 4. Evaluation:
--Compared the performance of the SSL-trained model with the supervised baseline.
--Visualized performance metrics such as loss, accuracy, and confusion matrix.
+* Compared the performance of the SSL-trained model with the supervised baseline.
+* Visualized performance metrics such as loss, accuracy, and confusion matrix.
 
 ## Dataset - STL10
 
