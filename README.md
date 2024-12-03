@@ -101,22 +101,25 @@ Inspect the confusion matrix in output/logs/confusion_matrix.png.
 ## 1. Loss and Accuracy Over Epochs
 
 ### Supervised Baseline:
-![train_val_graphs](https://github.com/user-attachments/assets/9899d5bc-7a86-4a1d-9702-a739833e97cd)
-* Test Accuracy: 67.16%
+![train_val_graphs_supervised_model_60epochs](https://github.com/user-attachments/assets/23b23c3b-d5ac-4422-93cd-3e1ee5c1dd56)
+
+* Test Accuracy: 73.55%
 
 ### Fine-Tuned (SSL):
-![fine_tuning_classification_graphs](https://github.com/user-attachments/assets/0fe6c2c5-f6f9-4b28-a919-c27c1fc43b9a)
-* Test Accuracy: 83.65%
+![fine_tuning_classification_graphs_60epochs](https://github.com/user-attachments/assets/f83fb656-e983-41b0-90e0-803fdc654cb0)
+
+* Test Accuracy: 82.49%
 
 ## 2. Confusion Matrix
 
 ### Supervised Baseline:
 
-![confusion_matrix](https://github.com/user-attachments/assets/212e41ba-1576-4e99-9645-36c7ea260215)
+![confusion_matrix_60epochs](https://github.com/user-attachments/assets/3a3dd871-be6d-44af-b031-4164b96c6549)
 
 ### Fine-Tuned (SSL):
 
-![fine_tuning_confusion_matrix](https://github.com/user-attachments/assets/ad9c6432-e57a-4eb4-a1be-edf6e703e9d7)
+![confusion_matrix_fine_tuning_60epochs](https://github.com/user-attachments/assets/8c530b73-d825-4af8-9b28-dc97de92fd2e)
+
 
 ## Resources
 - [SimCLR Tutorial](https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial17/SimCLR.html)
