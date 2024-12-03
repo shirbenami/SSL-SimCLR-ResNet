@@ -102,11 +102,11 @@ Inspect the confusion matrix in output/logs/confusion_matrix.png.
 
 ### Supervised Baseline:
 ![train_val_graphs](https://github.com/user-attachments/assets/9899d5bc-7a86-4a1d-9702-a739833e97cd)
-Test Accuracy: 67.16%
+* Test Accuracy: 67.16%
 
 ### Fine-Tuned (SSL):
 ![fine_tuning_classification_graphs](https://github.com/user-attachments/assets/0fe6c2c5-f6f9-4b28-a919-c27c1fc43b9a)
-Test Accuracy: 83.65%
+* Test Accuracy: 83.65%
 
 ## 2. Confusion Matrix
 
