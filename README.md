@@ -112,7 +112,8 @@ Inspect the confusion matrix in output/logs/confusion_matrix.png.
 ### Fine-Tuned (SSL):
 ![fine_tuning_classification_graphs_60epochs](https://github.com/user-attachments/assets/f83fb656-e983-41b0-90e0-803fdc654cb0)
 
-* Test Accuracy: 82.49%
+* Test Accuracy: 82.49% : **improved by 12.15%!**
+  
 
 ## 2. Confusion Matrix
 
@@ -124,6 +125,8 @@ Inspect the confusion matrix in output/logs/confusion_matrix.png.
 
 ![confusion_matrix_fine_tuning_60epochs](https://github.com/user-attachments/assets/8c530b73-d825-4af8-9b28-dc97de92fd2e)
 
+## Conclusion
+• SimCLR demonstrates the power of self-supervised learning- test accuracy improved by 12.15% compared to the baseline.
 
 ## Resources
 - [SimCLR Tutorial](https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial17/SimCLR.html)
