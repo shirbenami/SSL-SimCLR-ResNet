@@ -6,16 +6,18 @@ This repository contains a deep learning project focused on implementing SimCLR 
 
 This project explores self-supervised learning techniques using SimCLR and evaluates its impact on classification performance when fine-tuned on a labeled dataset. The key steps include:
 
-#### 1. Self-Supervised Pretraining (SimCLR):
-* Pretrained ResNet50 on the STL10 dataset's unlabeled images.
-* Optimized using the InfoNCE loss function to learn useful feature representations.
+1. **Supervised Baseline Training:**
+   - Trained ResNet50 from scratch on the STL10 labeled dataset to establish a baseline for performance comparison.
 
-#### 2. Fine-Tuning:
-* Fine-tuned the pretrained ResNet50 on the STL10 dataset's labeled training set.
-* Evaluated on the validation and test sets.
+2. **Self-Supervised Pretraining with SimCLR:**
+   - Pretrained ResNet50 on the STL10 dataset using unlabeled images.
+   - Applied the SimCLR method, which involves contrastive learning to enhance feature representation.
+   - Positive pairs: Created by applying data augmentations (e.g., cropping, color jittering) to the same image to generate different views.
+   - Negative pairs: Consist of augmented views from different images.
+   - The model was trained to minimize the distance between positive pairs while maximizing the distance from negative pairs, optimizing using the InfoNCE loss function.
 
-#### 3. Supervised Training Baseline:
-* Trained ResNet50 from scratch on the STL10 labeled dataset as a baseline for comparison.
+3. **Fine-Tuning:**
+   - Fine-tuned the SSL-pretrained ResNet50 on the labeled portion of the STL10 dataset.
 
 #### 4. Evaluation:
 * Compared the performance of the SSL-trained model with the supervised baseline.
@@ -73,6 +75,7 @@ Python 3.8+
 PyTorch with CUDA support (if using a GPU)
 
 ## Usage 
+
 ### 1. Self-Supervised Pretraining (SimCLR)
 
 Run the SimCLR training on STL10's unlabeled data:
