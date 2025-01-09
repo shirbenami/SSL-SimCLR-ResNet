@@ -19,7 +19,7 @@ This project explores self-supervised learning techniques using SimCLR and evalu
 3. **Fine-Tuning:**
    - Fine-tuned the SSL-pretrained ResNet50 on the labeled portion of the STL10 dataset.
 
-#### 4. Evaluation:
+4. **Evaluation:**
 * Compared the performance of the SSL-trained model with the supervised baseline.
 * Visualized performance metrics such as loss, accuracy, and confusion matrix.
 
